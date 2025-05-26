@@ -16,6 +16,20 @@ An extensible, Python-based security scanner for AWS environments. Designed for 
 python dashboard.py          # Launch the web dashboard
 python report_generator.py   # Generate a PDF report
 ```
+
+🚀 Quick Start
+git clone https://github.com/<your-username>/aws-cloud-security-analyzer.git
+cd aws-cloud-security-analyzer
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+# Run the dashboard
+python dashboard.py
+
+# (Optional) Generate a PDF report
+python report_generator.py
+
 ## Future Enhancements
 
 - ✅ Add support for CloudFormation template linting
